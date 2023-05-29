@@ -11,7 +11,7 @@ export default function Content() {
 
     return (<div className='cont_main'>
         <div>
-            <Card name={'Cabrera Esteban'} job={'Estudiante'} about={'Me gusta Messi'} img={'dana.jpg'}  />
+            <Card name={'Cabrera Esteban'} job={'Estudiante'} about={'No tengo enemigos. Me gusta Messi'} img={'eu.jpg'}  />
         </div>
         <div>
             <Card name={'Romano Mauricio'} job={'Estudiante'} about={'Corto pelo, armo tragos y hablo inglés'} img={'panchito.jpg'} />
