@@ -1,0 +1,27 @@
+.footerfooter {
+    display: grid;
+    grid-template-rows: 75px;
+    grid-gap: 45rem;
+    grid-template-areas:
+        "derechos contenidoPag";
+}
+
+.derechos{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-left: 2rem;
+}
+
+.contenidoPag {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-around;
+    position: relative;
+    margin-right: 0.5rem;
+}
+.cont{
+    margin-right: 1.5rem;
+    color: #fff;
+}

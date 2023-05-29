@@ -1,0 +1,22 @@
+.header_contenedor{
+    display: grid;
+    grid-template-columns:200px 1fr;
+    grid-template-rows: 80px;
+    
+    grid-template-areas:
+        "titulo"
+        "botones";
+   
+}
+.practico1{
+    grid-area: titulo;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: -4rem;
+}
+.botones{
+    grid-area: botones;
+    justify-content: space-around;
+    display: flex; 
+    
+}

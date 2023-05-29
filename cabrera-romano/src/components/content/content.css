@@ -1,0 +1,13 @@
+.cont_main{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    grid-column-gap: 3rem;
+    grid-template-areas:
+        "card card";
+    margin: 1rem;
+}
+.card{
+    grid-area: card;
+}
